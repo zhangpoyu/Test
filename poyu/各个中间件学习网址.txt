@@ -1,0 +1,7 @@
+1.Netty https://www.bilibili.com/video/BV1DJ411m7NR?p=1
+
+2.Seata  https://www.bilibili.com/video/BV1BK411K792?p=1
+$ cd script
+#-h 主机，你可以使用localhost，-p 端口号 你可以使用8848，-t 命名空间ID，-u 用户名，-w 密码
+$sh nacos-config.sh -h 127.0.0.1 -p 8848 -g SEATA_GROUP -t d9074d66-683d-4a85-bdc7-f953d5f05afa -u nacos -w nacos
+
